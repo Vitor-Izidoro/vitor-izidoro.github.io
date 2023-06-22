@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+.container {
+    display: grid;
+    background-image: url("imagens/fundo.png");
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F6F6F6;
+  
+
+  }
+  .container2 {
+    display: grid;
+    background-image: url("imagens/fundo.png");
+    height: 90vh;
+    padding: 40px;
+  }
+  .container3 {
+    display: grid;
+    background-image: url("imagens/fundo.png");
+    height: 180vh;
+    padding: 40px;
+  }
+  .titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F6F6F6;
+    text-align: center;
+  }
+  .esquerda{
+    text-align: left;
+    Float: right
+  }
+  .direita{
+    text-align: right;
+    align-items: right;
+    align-content: right;
+  }
+  .justificado{
+    text-align: justify;
+  }
+  .subtitulo{
+    color: #F6F6F6;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 500;
+  }
+  .fonte{
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500;
+  }
+  LI{
+    text-align: left;
+  }
+  .flexivel{
+    display:flex
+  }
+  .item1 { grid-area: 
+    header; 
+    color: #F6F6F6;
+
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.item1 { grid-area: header; 
+    color: #F6F6F6;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500;}
+.item2 { grid-area: menu; 
+    color: #F6F6F6;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500;}
+.item3 { grid-area: main; 
+    color: #F6F6F6;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500;}
+.item4 { grid-area: right;
+    color: #F6F6F6;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500; }
+.item5 { grid-area: footer;
+    color: #F6F6F6;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 500; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+  background-image: url("imagens/fundo.png");
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+  .meio{
+    text-align: center;
+  }
